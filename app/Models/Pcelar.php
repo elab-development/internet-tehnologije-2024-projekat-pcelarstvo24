@@ -18,11 +18,18 @@ class User extends Authenticatable
      * @var list<string>
      */
     protected $fillable = [
-        'name',
+        'ime',
+        'prezime',
         'email',
-        'password',
+        'telefon',
+        'adresa',
     ];
 
+    //veza pcelar-pcelinjak
+    public function pcelinjaks()
+    {
+        return $this->belongsToMany(Pcelinjak::class);
+    }
     /**
      * The attributes that should be hidden for serialization.
      *
