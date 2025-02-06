@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
+use App\Models\Pcelar;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -13,10 +13,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        // Pcelar::factory(10)->create();
 
-        User::factory()->create([
-            'name' => 'Test User',
+        Pcelar::factory()->create([
+            'ime' => 'Test pcelar',
             'email' => 'test@example.com',
         ]);
     }

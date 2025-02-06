@@ -7,9 +7,7 @@ use Illuminate\Database\Seeder;
 
 class MedSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+    
     public function run(): void
     {
         //kreiramo nekoliko vrsta medova

@@ -8,9 +8,7 @@ use Faker\Factory as Faker;
 
 class PcelarSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+    
     public function run(): void
     {
         //faker init
